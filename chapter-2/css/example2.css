@@ -63,3 +63,14 @@ a:focus {
     outline: none;
     background-color: red;
 }
+
+a:hover {
+    background-color: green;
+}
+
+/* Styling for Navbar */
+a:active {
+    background-color: orange;
+    color: white;
+}
+/* Styling for Main page */
