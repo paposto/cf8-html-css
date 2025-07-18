@@ -5,12 +5,15 @@ body {
 .container {
     border: 1px solid black;
     width: 90%;
+    border-radius: 2%;
 }
 
 .cf-title {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2.5rem;
     font-style: oblique;
+    border-bottom: 1px solid yellow;
+    border-top: 1px solid red ;
 }
 
 .cf-text {
@@ -26,7 +29,11 @@ body {
     text-align: center;
     text-decoration: underline;
     text-shadow: 2px 2px 2px red;
-    border: 1px solid green;
+    /* border: 1px solid green; */
+    border-width: 4px;  
+    border-style: double;
+    border-color: green;
+    background-color: rgb(128, 38, 123, 1);
 }
 
 .courses-text {
@@ -42,4 +49,14 @@ body {
     border: 1px solid red;
     margin-left: auto;
     margin-right: auto;
+}
+
+.social > .fa-facebook {
+    font-size: 2rem;
+    color: blue;
+}
+
+.social > .fa-linkedin {
+    font-size: 2rem;
+    color: orange;
 }
