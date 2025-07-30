@@ -22,3 +22,24 @@
 .p-10 {
     padding: 10px;
 }
+
+/* fieldset */
+fieldset {
+    width: 250px;
+    margin-left: 150px;
+    padding: 10px ;
+}
+
+/* form styling */
+
+input {
+    width: 250px;
+}
+
+label span {
+    display: inline-block; 
+    width: 130px;
+    /* border: 1px solid black; */
+    text-align: right;
+}
+
